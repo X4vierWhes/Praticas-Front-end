@@ -12,6 +12,11 @@
     margin: auto;
 }
 
+div{
+    display: flex;
+    justify-content: column;
+}
+
 body{
     display: flex;
     justify-content: column;

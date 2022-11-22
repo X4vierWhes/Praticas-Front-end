@@ -30,7 +30,8 @@ function cripy() {
   textCrypi.textContent = null;
   textCrypi.textContent = newText;
 
-  console.log(ASCICode);
+  console.log(armazena);
+
 }
 
 function desCripy() {
