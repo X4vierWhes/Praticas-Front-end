@@ -1,6 +1,9 @@
+let btn1 = document.querySelector('btnCripto')
 const armazena = [];
 
 function cripy() {
+
+  btn1.addEventListener('click', limpar);
   const ASCICode = [];
   const input = document.getElementById("textField").value;
   let newText = "";
@@ -53,4 +56,8 @@ function desCripy() {
 
   const textDesCrypi = document.getElementById("Resultado");
   textDesCrypi.innerHTML = deCripyText;
+}
+
+function limpar(){
+  armazena = null;
 }

@@ -9,6 +9,7 @@
 
 .mt {
     display: flex;
+    justify-content: Column;
     margin: auto;
 }
 
