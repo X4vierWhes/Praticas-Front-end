@@ -1,68 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: darkgray;
+}
+
+#textField {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  background-color: grey;
+  padding: 0.8rem;
+  border-radius: 0.25rem;
+}
+
+.output button {
+  margin-bottom: 0.8rem;
+  padding: 0.2rem;
+  border-radius: 0.25rem;
+}
+
+.output p {
+  margin-top: 0.2rem;
+}
+
+#errorCode,
+#errorDecode {
+  color: RGBA(178, 34, 34, 1);
+}
+
 .container {
-    max-width: 830px;
-    margin: auto;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-}
-
-button {
-    margin-top: .5rem;
-}
-
-header {
-    background-color: white;
-    margin: .5rem;
-}
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'inter', sans-serif;
-    background-color: black;
-}
-
-
-.input{
-    background-color: white;
-    border-radius: 25px;
-}
-
-.padrao{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
-.saidas{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-    border-radius: 25px;
-    background-color: gray;
-    color: white;
-
-}
-
-.btn1 {
-    background-color: green;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border-radius: 25px;
-    cursor: pointer;
-}
-
-.btn2 {
-    background-color: red;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border-radius: 25px;
-    cursor: pointer;
+  width: 100%;
+  max-width: 20%;
 }
